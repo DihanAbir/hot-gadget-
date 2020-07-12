@@ -1,0 +1,19 @@
+
+@media (min-width: 576px) { 
+    
+#nav-link:hover {
+    border-bottom: 2px solid transparent;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        border: 2px solid black!important;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }

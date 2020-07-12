@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.border{
+    border:1px solid red
+}
+.logo{
+    width: 100px;
+}
+#nav-link {
+    color: #666;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 0px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    margin: 0px 10px;
+}
+#nav-link:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid #000;
+}
+.carousel-indicators{
+    margin: -98px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #666;
+    border-radius: 50%!important;
+}
+.carousel-indicators .active {
+    opacity: 1;
+   background-color: #f78400;
+   width: 36px; 
+   border-radius: 5px;
+   border-radius: 43%!important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 20px;
+    width: 20px;
+    outline: #82262600;
+    background-color: rgb(253, 0, 0);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    position: absolute;
+}
+.carousel-control-prev-icon{
+
+    left: -46px;
+}
+.carousel-control-next-icon{
+
+    left: 208px;
+}
+
+
+
+/* smartphone  */
+.smartphone {
+    margin-top: 10rem;
+}
+.smartphone .smartphone-name {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.smartphone .see-all {
+    color: #f78400;
+}
+
+
+/* category section   */
+
+.category-header{
+    display: inline-block;
+    line-height: 48px; 
+    font-size: 25px;  
+    font-weight: 600;
+}
+.underline{
+    width: 9%;
+    margin: -3px auto;
+    height: 7px;
+    color: #f78400;
+    background-image: linear-gradient(45deg, #f78400, #fdc42d);
+    border-radius: 6px;
+    
+}
